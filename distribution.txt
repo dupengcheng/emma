@@ -15,3 +15,10 @@ win32 binary
 	- "one-click" installer
 	candidates: pyinstaller - not an "installer"!
 	candidates: py2exe, [inno setup|NSIS] (http://www.pygtk.org/articles/bitpodder/BitPodder.htm)
+
+
+ubuntu install dependencies
+
+apt-get install libmysqlclient-dev python-gtksourceview2
+easy_install pygtk gtk
+
